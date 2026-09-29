@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: '0 19 * * *'  # 每天北京时间凌晨 3 点自动运行
   workflow_dispatch:      # 保留手动运行的按钮
-  workflow_dispatch:
     inputs:
       device_name:
         description: 设备名（WARP 后台显示用）
